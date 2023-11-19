@@ -238,12 +238,16 @@ footer p{
 }
 
 
+
+
 .donate{
   background-color: #062941; 
-  padding:70px;
+  padding:100px;
+  margin-left: 220px;
   display: flex;
   justify-self: center;
   align-items: center;
+  
  
 }
 
