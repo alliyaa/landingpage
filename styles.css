@@ -45,7 +45,7 @@ padding: 0px 20px;
 
 button{
     padding:9px 30px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(0, 255, 94);
     border:none;
     border-radius: 50px;
     cursor:pointer;
@@ -54,7 +54,7 @@ button{
 }
 
 button:hover{
-    background-color: rgb(177, 27, 27);
+    background-color: rgb(10, 121, 68);
 }
 
 .bookmain h4{
@@ -215,9 +215,10 @@ h5{
 footer{
   display:flex;
   background-color: black;
-  padding:2em;
+  padding:3em;
   align-items: center;
   justify-content: center;
+  margin-top: 200px;
   
  
 }
@@ -227,6 +228,47 @@ footer p{
   color:azure; 
   
 }
+
+.flexcontainer2 {
+  margin: 100px 0px 100px 0px;
+  display: flex;
+  background-color: #062941; 
+  align-items: center;
+  justify-content: center;
+}
+
+
+.donate{
+  background-color: #062941; 
+  padding:70px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+ 
+}
+
+.donate h3{
+  color:aliceblue;
+  background-color: #062941; 
+  
+}
+
+.donate button {
+  color: rgb(6, 41, 71);
+  background-color: #b6e2ff; 
+  font-weight: 500;
+  font-size:16px;
+  text-decoration: none; 
+  transition: all 0.3s ease 0s;
+}
+
+.donate button:hover{
+  background-color: rgb(40, 255, 151);
+}
+  
+
+
+
 
 
 
