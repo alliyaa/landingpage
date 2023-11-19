@@ -126,7 +126,7 @@ button:hover{
 .c {
   flex: 1; 
   padding: 20px; 
-  border: 1px solid #ccc; 
+  
 }
 
 .c:first-child {
@@ -134,7 +134,7 @@ button:hover{
 }
 
 .c:last-child {
-  flex: 2;
+  flex: 3;
   
 }
 
@@ -149,8 +149,10 @@ display:inline;
 color:rgb(0, 0, 0);
 }
 
+
+
 h5{
-  margin-right:50px;
+  margin-right:70px;
   margin-bottom:20px;
-  
+
 }
