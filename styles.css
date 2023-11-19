@@ -4,6 +4,7 @@
     margin:0;
     padding:0;
     background-color: rgb(181, 181, 255);
+  
 }
 
 li, a, button{
@@ -181,6 +182,53 @@ h5{
   margin-bottom: 30px; 
   font-size:18px;
 }
+
+.jump{
+  margin-top: -10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+
+
+.cr {
+  flex: 1; 
+  padding: 20px; 
+  
+}
+
+.cr img {
+  margin-top: 10px;
+}
+
+.cr:first-child {
+  flex: 1;
+  
+}
+
+.cr:last-child {
+  flex: 3;
+  
+}
+
+footer{
+  display:flex;
+  background-color: black;
+  padding:2em;
+  align-items: center;
+  justify-content: center;
+  
+ 
+}
+
+footer p{
+  background-color: black;
+  color:azure; 
+  
+}
+
+
 
 
 
